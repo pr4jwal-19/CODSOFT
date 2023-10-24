@@ -15,18 +15,9 @@ public class Student {
         this.marks = marks;
         this.email = email;
     }
-
-
-
-
-
-
     public String getRollno() {
         return rollno;
     }
-
-
-
     public String toString(){
         return "Name: "+name+" | Roll.No: "+rollno+" | Sem: "+sem+" | Marks: "+marks+" | EmailID: "+email;
     }
